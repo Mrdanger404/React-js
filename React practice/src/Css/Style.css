@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    background-color: aqua;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.container:hover{
+    box-shadow: 0 10px 20px gray;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+
+}
+.container p{
+    margin: 10px;
+}
+
+.username{
+    font-weight: bolder;
+    font-size: 1.6rem;
+    color: tomato;
+}
+
+.phone{
+    height: 20px;
+    width: 150px;
+    background-color: white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 10px;
+}
+.phone:hover a{
+    color: #000;
+}
+.phone:hover{
+    background-color: blue;
+    box-shadow: 0 10px 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.phone a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email{
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.email a{
+    text-decoration: none;
+    color: red;
+}
